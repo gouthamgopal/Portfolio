@@ -1,2 +1,1 @@
-# Portfolio
-An open source react based self portfolio application
+# A simple single page portfolio to showcase myself.

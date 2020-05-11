@@ -1,0 +1,45 @@
+#navbar {
+    /* transition: top 0.5s; */
+    transform: translateY(0px);
+    box-shadow: rgba(2, 12, 27, 0.7) 0px 10px 30px -10px;
+    transition: all 0.25s cubic-bezier(0.645, 0.045, 0.355, 1) 0s;
+    z-index: 100;
+  }
+
+.navbar-brand > span {
+    padding-left: 10px;
+    vertical-align: middle;
+}
+
+.backsvg {
+    float: left !important;
+    margin-left: 30px;
+}
+
+.navbar-header {
+    margin-right: 20px;
+}
+
+.navbar-nav {
+    font-size: 16px;
+    font-weight: bold;
+}
+
+.leftNav {
+    width: 40px;
+    position: fixed;
+    bottom: 0px;
+    left: 30px;
+    right: auto;
+    z-index: 10;
+    /* color: rgb(168, 178, 209); */
+}
+
+.leftNav::after{
+    content: "";
+    display: block;
+    width: 1px;
+    height: 90px;
+    background-color: rgb(168, 178, 209);
+    margin: 0px auto;
+}
