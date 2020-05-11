@@ -1,0 +1,34 @@
+.contactComponent {
+  margin-top: 20vh;
+  height: 50vh;
+  left: 50%;
+  flex-grow: 1;
+  align-items: center;
+  justify-content: center;
+}
+
+.contactComponent > * {
+    display: block;
+    align-self: center;
+    justify-content: center;
+}
+.textOuter{
+    display: flex;
+
+}
+h3 {
+    font-size: 40px;
+    align-self: center;
+    text-align: center;
+}
+
+p {
+    font-size: 20px;
+    text-align: center;
+    max-width: 70%;
+}
+
+button {
+    margin: auto;
+    margin-top: 30px;
+}
