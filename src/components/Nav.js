@@ -1,7 +1,11 @@
 import React, { Component } from "react";
 import icon from "../content/images/gg_icon.svg";
 import gitIco from "../content/images/github.svg";
+import { SocialIcon } from "react-social-icons";
 import "../styles/Nav.css";
+import LinkedInIcon from "@material-ui/icons/LinkedIn";
+import GitHubIcon from "@material-ui/icons/GitHub";
+import TwitterIcon from "@material-ui/icons/Twitter";
 
 class Nav extends Component {
   constructor(props) {
@@ -69,32 +73,67 @@ class Nav extends Component {
 
         <div orientation="left" className="leftNav">
           <ul className="navbar-nav">
-            <li className="nav-item">
-              <img
-                className="nav-link"
-                src={gitIco}
-                alt="Home Link"
-                width="40px"
-                height="40px"
-              />
+            <li>
+              <a
+                href="https://www.linkedin.com/in/goutham-gopal-8a018692/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <LinkedInIcon
+                  url="https://www.linkedin.com/in/goutham-gopal-8a018692/"
+                  style={{
+                    height: 40,
+                    width: 40,
+                    color: "black",
+                  }}
+                />
+              </a>
             </li>
             <li>
-              <img
-                className="nav-link"
-                src={icon}
-                alt="Home Link"
-                width="40px"
-                height="40px"
-              />
+              <a
+                href="https://github.com/gouthamgopal"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <GitHubIcon
+                  style={{
+                    height: 38,
+                    width: 35,
+                    color: "black",
+                    marginLeft: 3,
+                  }}
+                />
+              </a>
             </li>
             <li>
-              <img
-                className="nav-link"
-                src={icon}
-                alt="Home Link"
-                width="40px"
-                height="40px"
-              />
+              <a
+                href="https://twitter.com/goutham_gopal"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                <TwitterIcon
+                  style={{
+                    height: 40,
+                    width: 40,
+                    color: "black",
+                  }}
+                />
+              </a>
+            </li>
+          </ul>
+        </div>
+
+        <div orientation="right" className="rightNav">
+          <ul className="navbar-nav">
+            <li>
+              <a
+                href="mailto:goutham.gopal94@gmail.com"
+                className="rightNavMail"
+                rel="noopener noreferrer"
+                target="_blank"
+              >
+                goutham.gopal94@gmail.com
+              </a>
             </li>
           </ul>
         </div>

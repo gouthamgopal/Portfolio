@@ -15,6 +15,9 @@ class Home extends Component {
             "Full Stack Developer",
             "Cloud Developer",
           ]} //text=["Hello.", "World!"]
+          speed={100}
+          eraseDelay={600}
+          typingDelay={1500}
         />
         <p>
           I am a software engineer based in Bloomington, IN specializing in
