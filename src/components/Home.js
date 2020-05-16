@@ -15,7 +15,7 @@ class Home extends Component {
             "Full Stack Developer",
             "Cloud Developer",
           ]} //text=["Hello.", "World!"]
-          speed={100}
+          speed={50}
           eraseDelay={600}
           typingDelay={1500}
         />
